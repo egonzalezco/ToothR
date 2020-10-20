@@ -6,12 +6,6 @@ git config --global user.name "git"
 git config --global user.email "egvalencia.1970@gmail.com"
 ===============================================================
 
-Después hay que detallar la ruta en la que se encuentra git en RStudio.
-
-
-
-Clonar el repositorio ha sido muy fácil y también realizar las primeras órdenes de commit y push.
-
 CREAR UN REPOSITORIO DESDE CERO:
 ================================
 1. Se crea un Repositorio en RStudio (menu->New Project)

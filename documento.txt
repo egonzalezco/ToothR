@@ -22,5 +22,10 @@ CREAR UN REPOSITORIO DESDE CERO:
 	>git remote add origin https://github.com/egonzalezco/toothR.git
 	>git push -u origin master 
 
+5. Cuando modifiquemos algún archivo del directorio, estando en RStudio, haremos un 'commit' para subir
+el archivo a Git y después un 'Push' para subirlo a Github.
+
+
+
 
 

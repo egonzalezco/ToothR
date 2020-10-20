@@ -1,13 +1,26 @@
-Es muy útil el archivo que has adjuntado, gracias Patricia. Pienso que github y otro tipo de herramientas de este estilo son muy potentes para trabajar colaborativamente.
-He tenido algunas dificultades inicialmente para instalar git en windows, aunque buscando en foros y con un poco de paciencia lo he resuelto fácilmente.
+
 Lo importante es primero hacer la instalación de git y desde la terminal que te ofrece abrir cuando termina la instalación, indicar ya nuestra identidad y correo electrónico con los comandos:
 
+===============================================================
 git config --global user.name "git"
-git config --global user.email "XXX"
+git config --global user.email "egvalencia.1970@gmail.com"
+===============================================================
 
 Después hay que detallar la ruta en la que se encuentra git en RStudio.
 
+
+
 Clonar el repositorio ha sido muy fácil y también realizar las primeras órdenes de commit y push.
 
-He leído que github no es una herramienta muy segura si tratas datos privados. ¿Alguno de vosotros tiene experiencia con otras plataformas que sean más seguras?
+CREAR UN REPOSITORIO DESDE CERO:
+================================
+1. Se crea un Repositorio en RStudio (menu->New Project)
+2. Desde Rstudio hacemos un 'commit' para seleccionar los archivos que quiero enviar a Git.
+3. Creo en Github un repositorio con el mismo nombre de carpeta que en Rstudio Project.
+4. Enlazar el repositorio Git local con Github. Para ello desde el terminal de Windows:
+
+	>git remote add origin https://github.com/egonzalezco/toothR.git
+	>git push -u origin master 
+
+
 

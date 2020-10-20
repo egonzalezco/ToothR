@@ -1,25 +1,36 @@
+=============================================================
+INSTALACIÓN DE GIT 
+=============================================================
 
-Lo importante es primero hacer la instalación de git y desde la terminal que te ofrece abrir cuando termina la instalación, indicar ya nuestra identidad y correo electrónico con los comandos:
+Instalar Git en el ordenador,y desde la terminal de Git indicar nuestra identidad y correo electrónico con los comandos:
 
 ===============================================================
 git config --global user.name "git"
 git config --global user.email "egvalencia.1970@gmail.com"
-===============================================================
 
+==============================================================
 CREAR UN REPOSITORIO DESDE CERO:
-================================
+===============================================================
 1. Se crea un Repositorio en RStudio (menu->New Project)
 2. Desde Rstudio hacemos un 'commit' para seleccionar los archivos que quiero enviar a Git.
-3. Creo en Github un repositorio con el mismo nombre de carpeta que en Rstudio Project.
+3. Crear en Github (hemos de estar registrados) un repositorio con el mismo nombre de carpeta que en Rstudio Project.
 4. Enlazar el repositorio Git local con Github. Para ello desde el terminal de Windows:
 
-	>git remote add origin https://github.com/egonzalezco/toothR.git
+	>git remote add origin https://github.com/usuario_github/carpeta_repositorio.git
 	>git push -u origin master 
 
 5. Cuando modifiquemos algún archivo del directorio, estando en RStudio, haremos un 'commit' para subir
 el archivo a Git y después un 'Push' para subirlo a Github.
 
+===============================================================
+CLONAR UN REPOSITORIO DE GITHUB
+===============================================================
 
+1. Copiamos la dirección web del repositorio que queremos clonar.
+2. Abrimos una ventana de terminal, y creamos un directorio con el nombre que queremos dar al proyecto.
+3. Nos situamos dentro de dicho directorio y lanzamos el siguiente comando:
+
+	> git clone https://github.com/carpeta/proyecto.git
 
 
 
